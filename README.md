@@ -29,10 +29,4 @@ This bot is designed to automate the process of selecting presentation topics fo
 *   **Deployment:** RunFlare Cloud
 
 ---
-
-## ⚙️ راهنمای راه‌اندازی (Installation)
-
-1. **کلون کردن پروژه (Clone the repository):**
-```bash
-   git clone https://github.com/Farzaneh19/Tel-bale-bot.git
    
