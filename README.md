@@ -1,22 +1,38 @@
-# Tel-bale-bot
-ربات تلگرام و بله جهت تعیین پروژه ها و کنفرانس های کلاسی
-# 🎓 Presentation Topic Manager Bot
+# 🎓 Tel-bale-bot
+### ربات تلگرام و بله برای مدیریت ارائه‌های دانشجویی
+### Telegram & Bale Bot for University Presentation Management
 
-این ربات تلگرامی برای مدیریت هوشمند فرآیند انتخاب موضوع ارائه دانشجویان طراحی شده است.
+---
 
-## 🚀 قابلیت‌ها
-- **مدیریت داینامیک:** امکان آپلود فایل اکسل (`topics.xlsx`) جهت تعریف موضوعات جدید.
-- **رزرو هوشمند:** جلوگیری از تداخل (هر موضوع فقط توسط یک نفر انتخاب می‌شود).
-- **گزارش‌گیری:** خروجی اکسل از تمامی ثبت‌نامی‌ها با دستور `/export`.
-- **امنیت:** استفاده از محیط ایزوله (`.env`) برای مدیریت توکن‌ها.
+## 🇮🇷 معرفی (Introduction)
+این ربات برای خودکارسازی فرآیند انتخاب موضوعات ارائه در کلاس‌های دانشگاهی طراحی شده است. این ابزار به دانشجویان اجازه می‌دهد تا به راحتی موضوعات موجود را مشاهده و رزرو کنند، و به استاد یا نماینده کلاس امکان مدیریت و خروجی‌گیری از لیست ثبت‌نامی‌ها را می‌دهد.
 
-## 🛠 تکنولوژی‌های استفاده شده
-- Python
-- `python-telegram-bot`
-- `pandas` (جهت مدیریت داده‌ها)
-- `RunFlare` (استقرار ابری)
+This bot is designed to automate the process of selecting presentation topics for university classes. It allows students to easily view and reserve available topics, while enabling instructors or class representatives to manage and export the registration list.
 
-## 📌 نحوه استفاده
-1. فایل `requirements.txt` را نصب کنید: `pip install -r requirements.txt`
-2. توکن ربات خود را در فایل `.env` قرار دهید.
-3. با دستور `/start` شروع به کار کنید.
+---
+
+## 🚀 ویژگی‌ها (Features)
+
+*   **مدیریت داینامیک (Dynamic Management):** امکان آپلود فایل اکسل (`topics.xlsx`) جهت تعریف موضوعات جدید.
+*   **رزرو هوشمند (Smart Reservation):** جلوگیری از تداخل (هر موضوع فقط توسط یک نفر انتخاب می‌شود).
+*   **گزارش‌گیری (Admin Export):** دریافت خروجی اکسل از تمامی ثبت‌نامی‌ها با دستور `/export` توسط ادمین.
+*   **امنیت (Security):** استفاده از متغیرهای محیطی برای حفاظت از توکن‌ها (`.env`).
+
+---
+
+## 🛠 تکنولوژی‌های استفاده شده (Tech Stack)
+
+*   **Language:** Python 3.x
+*   **Library:** `python-telegram-bot`
+*   **Data Handling:** `pandas`, `openpyxl`
+*   **Environment:** `python-dotenv`
+*   **Deployment:** RunFlare Cloud
+
+---
+
+## ⚙️ راهنمای راه‌اندازی (Installation)
+
+1. **کلون کردن پروژه (Clone the repository):**
+```bash
+   git clone https://github.com/Farzaneh19/Tel-bale-bot.git
+   
